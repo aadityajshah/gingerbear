@@ -1,0 +1,79 @@
+html {
+  color: #666;
+}
+
+body {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p {
+  font-size:12pt;
+  
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.homepage {
+  background-image: url("./gingerbear.png");
+  color: #000;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 400px;
+}
+
+.company {
+  color: #eeab30;
+}
+
+.company span {
+  color: #eeab30;
+  text-decoration-style: dotted;
+}
+
+#acquia {
+  color: rgba(38, 163, 221, 1);
+}
+
+#vercel {
+  color: #000;
+}
+
+#cloudflare {
+  color: rgb(246, 130, 31);
+}
+
+#linkedin {
+  color: ##0073b1;
+}
+
+.footer {
+  color: #111;
+  
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans-mono-p{
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
