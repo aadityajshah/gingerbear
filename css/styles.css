@@ -31,10 +31,10 @@ a:hover {
 }
 
 .homepage {
-  background-image: url("./gingerbear.png");
+  background-image: url("../gingerbear.png");
   color: #000;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center 8%;
   padding-top: 400px;
 }
 
