@@ -26,9 +26,11 @@ a, a:visited {
   font-style: italic;
 }
 
-a[href^="http"]::after,
-a[href^="https://"]::after
-{
+a#cloudflare::after,
+a#vercel::after,
+a#mabl::after,
+a#acquia::after,
+a#linkedin::after {
   content: "";
   width: 11px;
   height: 11px;
