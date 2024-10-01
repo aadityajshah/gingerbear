@@ -20,8 +20,10 @@ p {
   
 }
 
-a {
-  text-decoration:none;
+a, a:visited {
+  color: #eeab30;
+  text-decoration-style: double;
+  font-style: italic;
 }
 
 a:hover {
@@ -62,8 +64,7 @@ a:hover {
 }
 
 .footer {
-  color: #111;
-  
+  color: #ccc;
 }
 
 // <uniquifier>: Use a unique and descriptive class name
