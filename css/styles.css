@@ -3,10 +3,10 @@ html {
 }
 
 body {
-  max-width: 420px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 150px;
+  padding-top: 175px;
   font-family: "Noto Sans Mono", monospace;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -21,7 +21,7 @@ p {
 }
 
 a, a:visited {
-  color: #eeab30;
+  color: #e97f2b;
   text-decoration-style: double;
   font-style: italic;
 }
@@ -51,7 +51,6 @@ a:hover {
   color: #000;
   background-repeat: no-repeat;
   background-position: center 8%;
-  padding-top: 400px;
 }
 
 .company {
@@ -59,7 +58,7 @@ a:hover {
 }
 
 .company span {
-  color: #eeab30;
+  color: #e97f2b;
   text-decoration-style: dotted;
 }
 
@@ -76,11 +75,16 @@ a:hover {
 }
 
 #linkedin {
-  color: ##0073b1;
+  color: #0073b1;
+}
+
+#mabl {
+  color: #e84fd9;
 }
 
 .footer {
   color: #ccc;
+  padding-top:100px;
 }
 
 // <uniquifier>: Use a unique and descriptive class name
