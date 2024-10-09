@@ -1,5 +1,5 @@
 html {
-  color: #666;
+    color: #000;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
 
 p {
   font-size:12pt;
-  
 }
 
 a, a:visited {
@@ -47,10 +46,15 @@ a:hover {
 }
 
 .homepage {
-  background-image: url("../gingerbear.png");
-  color: #000;
+  background-image: url("../images/gingerbear.png");
   background-repeat: no-repeat;
   background-position: center 8%;
+  color: #36342F;
+}
+
+.dark-mode {
+  background-color: #170D01 ;
+  color: #EEAB30 ;
 }
 
 .company {
@@ -67,7 +71,7 @@ a:hover {
 }
 
 #vercel {
-  color: #000;
+  color: #666;
 }
 
 #cloudflare {
@@ -83,7 +87,7 @@ a:hover {
 }
 
 .footer {
-  color: #ccc;
+  color: #8B7854;
   padding-top:100px;
 }
 
