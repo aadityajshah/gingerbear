@@ -1,5 +1,5 @@
 html {
-  color: #666;
+    color: #000;
 }
 
 body {
@@ -15,14 +15,8 @@ body {
     "wdth" 100;
 }
 
-.dark-mode {
-  background-color: #170D01 ;
-  color: #eeab30 ;
-}
-
 p {
   font-size:12pt;
-  
 }
 
 a, a:visited {
@@ -53,17 +47,13 @@ a:hover {
 
 .homepage {
   background-image: url("../images/gingerbear.png");
-  color: #000;
   background-repeat: no-repeat;
   background-position: center 8%;
 }
 
-.larger-font {
-  font-size:16px;
-}
-
-.largest-font {
-  font-size:20px;
+.dark-mode {
+  background-color: #170D01 ;
+  color: #EEAB30 ;
 }
 
 .company {
@@ -83,7 +73,7 @@ a:hover {
   color: #000;
 }
 
-.dark-mode > #vercel {
+.dark-mode > a#vercel {
   color: #fff;
 }
 
