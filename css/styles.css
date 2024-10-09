@@ -71,11 +71,7 @@ a:hover {
 }
 
 #vercel {
-  color: #000;
-}
-
-.dark-mode>#vercel {
-  color: #fff;
+  color: #666;
 }
 
 #cloudflare {
