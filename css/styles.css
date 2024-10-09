@@ -47,10 +47,18 @@ a:hover {
 }
 
 .homepage {
-  background-image: url("../gingerbear.png");
+  background-image: url("../images/gingerbear.png");
   color: #000;
   background-repeat: no-repeat;
   background-position: center 8%;
+}
+
+.larger-font {
+  font-size:16px;
+}
+
+.largest-font {
+  font-size:20px;
 }
 
 .company {
