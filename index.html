@@ -18,26 +18,28 @@
         <link rel="stylesheet" href="/css/styles.css">
         <script src="https://kit.fontawesome.com/1552540e8b.js" crossorigin="anonymous"></script>
   </head>
-  <body class="homepage" role="generic">
-    <h1 class="company"><span><a href="/">gingerbear.dev</a></span>elopment</h1>
-    <p>Welcome to <span class="company"><span><a href="/">gingerbear.dev</a></span>elopment</span>. We specialize in Web Development and consulting around 
-      SaaS products.</p>
-    <p>Aaditya Shah, the owner, has been an employee of <a href="https://www.acquia.com" id="acquia" target="_blank">Acquia</a>, <a href="https://www.vercel.com" id="vercel" target="_blank">Vercel</a>,
-      and <a href="https://www.mabl.com" id="mabl" target="_blank">mabl</a>. He has now transitioned to a new role with <a href="https://www.cloudflare.com" id="cloudflare" target="_blank">Cloudflare</a>, 
-      where he hopes to continue his journey as a Customer Success Advocate.</p>
-    <p>Leveraging his years of Customer Success and Customer Service, Aaditya is now available on 
-      contract basis, to help customers succeed in fully utilizing the tools they have already purchased. If you are interested in utilizing his services, please reach 
-      out via <a href="https://www.linkedin.com/in/aadityajshah" id="linkedin" target="_blank">LinkedIn</a>.
-    </p>
-
-    <div class="footer" role="generic">
-      <i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2024. All rights reserved. 
-      <br /><br />
-      <a href="#" onclick="decreaseFontSize()" title="Decrease Font Size" alt="Decrease Font Size" class="company">-a</a> | 
-      <a href="#" onclick="increaseFontSize()" title="Increase Font Size" alt="Increase Font Size" class="company">+A</a> | 
-      <a href="#" onclick="darkLight()" title="Switch Dark/Light Mode" alt="Switch Dark/Light Mode" class="company"><i class="fa fa-certificate" aria-hidden="true"></i></a>
-    </div>
-
+  <body class="homepage" role="">
+    <main role="main">
+      <h1 class="company"><span><a href="/">gingerbear.dev</a></span>elopment</h1>
+      <p>Welcome to <span class="company"><span><a href="/">gingerbear.dev</a></span>elopment</span>. We specialize in Web Development and consulting around 
+        SaaS products.</p>
+      <p>Aaditya Shah, the owner, has been an employee of <a href="https://www.acquia.com" id="acquia" target="_blank">Acquia</a>, <a href="https://www.vercel.com" id="vercel" target="_blank">Vercel</a>,
+        and <a href="https://www.mabl.com" id="mabl" target="_blank">mabl</a>. He has now transitioned to a new role with <a href="https://www.cloudflare.com" id="cloudflare" target="_blank">Cloudflare</a>, 
+        where he hopes to continue his journey as a Customer Success Advocate.</p>
+      <p>Leveraging his years of Customer Success and Customer Service, Aaditya is now available on 
+        contract basis, to help customers succeed in fully utilizing the tools they have already purchased. If you are interested in utilizing his services, please reach 
+        out via <a href="https://www.linkedin.com/in/aadityajshah" id="linkedin" target="_blank">LinkedIn</a>.
+      </p>
+    </main>
+    <footer role="footer">
+      <div class="footer">
+        <i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2024. All rights reserved. 
+        <br /><br />
+        <a href="#" onclick="decreaseFontSize()" title="Decrease Font Size" alt="Decrease Font Size" class="company">-a</a> | 
+        <a href="#" onclick="increaseFontSize()" title="Increase Font Size" alt="Increase Font Size" class="company">+A</a> | 
+        <a href="#" onclick="darkLight()" title="Switch Dark/Light Mode" alt="Switch Dark/Light Mode" class="company"><i class="fa fa-certificate" aria-hidden="true"></i></a>
+      </div>
+    </footer>
     <script>
       function increaseFontSize() {
         const elements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6');
