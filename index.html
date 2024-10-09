@@ -6,16 +6,16 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />        
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png" />        
+        <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body class="homepage">
     <!-- <h1 class="company"><span><a href="/">gingerbear.dev</a></span>elopment</h1> -->
@@ -23,11 +23,34 @@
       SaaS products.</p>
     <p>Aaditya Shah, the owner, has been an employee of <a href="https://www.acquia.com" id="acquia" target="_blank">Acquia</a>, <a href="https://www.vercel.com" id="vercel" target="_blank">Vercel</a>,
       and <a href="https://www.mabl.com" id="mabl" target="_blank">mabl</a>. He has now transitioned to a new role with <a href="https://www.cloudflare.com" id="cloudflare" target="_blank">Cloudflare</a>, 
-      where he hopes to continue his journey as a Customer Success Advocate. Leveraging his years of Customer Success and Customer Service, Aaditya is now available on 
+      where he hopes to continue his journey as a Customer Success Advocate.</p>
+    <p>Leveraging his years of Customer Success and Customer Service, Aaditya is now available on 
       contract basis, to help customers succeed in fully utilizing the tools they have already purchased. If you are interested in utilizing his services, please reach 
       out via <a href="https://www.linkedin.com/in/aadityajshah" id="linkedin" target="_blank">LinkedIn</a>.
     </p>
 
-    <div class="footer">Copyright 2024. All rights reserved. </div>
+    <div class="footer">Copyright 2024. All rights reserved. <a href="#" onclick="decreaseFontSize()">-a</a> | <a href="#" onclick="increaseFontSize()">+A</a> </div>
+
+    <script>
+      function increaseFontSize() {
+        const elements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6');
+      
+        elements.forEach(element => {
+          let fontSize = parseFloat(window.getComputedStyle(element).fontSize);
+          fontSize += 2; // Increase font size by 2px
+          element.style.fontSize = fontSize + 'px';
+        });
+      }
+
+      function decreaseFontSize() {
+        const elements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6');
+      
+        elements.forEach(element => {
+          let fontSize = parseFloat(window.getComputedStyle(element).fontSize);
+          fontSize -= 2; // Increase font size by 2px
+          element.style.fontSize = fontSize + 'px';
+        });
+      }
+    </script>
   </body>
 </html>
