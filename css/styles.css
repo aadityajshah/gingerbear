@@ -1,5 +1,6 @@
 html {
-    color: #000;
+    color: #e2e2e2;
+    background-color:#522f54;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 p {
@@ -37,7 +38,7 @@ a#linkedin::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain 50%;
   display: inline-block;
 }
 
@@ -46,14 +47,14 @@ a:hover {
 }
 
 .homepage {
-  background-image: url("../images/gingerbear-large.png");
+  background-image: url("../images/gingerbear-large-transparent.jpeg");
   background-repeat: no-repeat;
-  background-position: center 8%;
-  color: #36342F;
+  background-position: center 3%;
+  background-size: 200px;
+  color: #e2e2e2;
 }
 
 .dark-mode {
-  background-color: #170D01 ;
   color: #EEAB30 ;
 }
 
